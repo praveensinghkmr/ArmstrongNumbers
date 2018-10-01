@@ -9,11 +9,11 @@ public static class ArmstrongNumbers
         int sum = 0;
         List<int> digits = new List<int>();
 
-        do
-        {
-            digits.Add(num % 10);
-            num = num/10;
-        } while (num != 0);
+        //do
+        //{
+        //    digits.Add(num % 10);
+        //    num = num/10;
+        //} while (num != 0);
 
         foreach(int digit in digits)
         {
